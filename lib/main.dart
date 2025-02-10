@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:project_one/Live%20xmpl/Calculator.dart';
+import 'package:project_one/Responsive_1.dart';
 import 'package:project_one/signup.dart';
 import 'package:project_one/sizer.dart';
 import 'package:project_one/wrap.dart';
@@ -18,7 +20,7 @@ class Myapp extends StatelessWidget {
       builder: (context , orientation , screenType ){
       return MaterialApp(
         theme: ThemeData(),
-      home: Signup_(),
+      home: Calculator(),
       );
 
       },
